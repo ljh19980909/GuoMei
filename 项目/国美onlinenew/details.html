@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/details.css"/>
+		<link rel="stylesheet" type="text/css" href="css/监视.css"/>
+	</head>
+<!--function fhhs(){
+			window.history.back();
+		} -->
+	<body>
+		<nav>
+				<div class="fh" onclick="javascrtpt:window.history.back()">
+					<span class="iconfont">&#xe603;</span>
+				</div>
+				<div class="navxq">
+					<a href="#">商品描述</a>
+				</div>
+				<div class="fxxq">
+					<span class="iconfont">&#xe654;</span>
+					<span class="iconfont">&#xe616;</span>
+				</div>
+			
+		</nav>
+		<div class="spge">
+			<div class="ggcs" id="spjs">
+				<span>
+					商品介绍
+				</span>
+			</div>
+			<div class="ggcs" id="gecs">
+				<span>
+					规格参数
+				</span>
+			</div>
+		</div>
+		<div id="zt">
+			
+		
+			<div id="xixing">
+				<div class="csxq">
+					<p>香型：<span>酱香型</span></p>
+				</div>
+				<div class="csxq">
+					<p>品牌：<span>茅台</span></p>
+				</div>
+				<div class="csxq">
+					<p>产地：<span>贵州</span></p>
+				</div>
+				<div class="csxq">
+					<p>规格：<span>500ml</span></p>
+				</div>
+				<div class="csxq">
+					<p>包装：<span>单瓶</span></p>
+				</div>
+				<div class="csxq">
+					<p>规格：<span>700-199</span></p>
+				</div>
+				<div class="csxq">
+					<p>原材料：<span>高粱、小麦、水</span></p>
+				</div>
+				<div class="csxq">
+					<p>酒精度：<span>53%</span></p>
+				</div>
+			</div>
+			
+			
+			
+			<div id="xqtp">
+				<img src="img/spjsc.png" >
+			</div>
+			
+		</div>
+		
+		
+		
+		<div class="gwc">
+			<div id="gwcsl">
+				<span>4</span>
+			</div>
+			<div class="gwcy">
+				<span class="iconfont">&#xe607;</span>
+				<p>收藏</p>
+			</div>
+			<div class="gwcy">
+				<span class="iconfont">&#xe605;</span>
+				<p>购物车</p>
+			</div>
+			<div class="gwcy" id="gwc">
+				<span>加入购物车</span>
+			</div>
+			<div class="gwcy" id="gwcy">
+				<span>立即购买</span>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var spjsc=document.getElementById("spjs");
+		var gecs=document.getElementById("gecs");
+		var xixing=document.getElementById("xixing");
+		var xqtp=document.getElementById("xqtp");
+		gecs.onclick=function(){
+			// alert("hahah")
+			// alert("hahah")
+			xqtp.style.display="block";
+			gecs.style.backgroundColor="#FFFFFF";
+			xixing.style.display="none";
+			spjsc.style.backgroundColor="#E6E6E6";
+			// xqtp.style.zIndex="100";
+		}
+		
+		spjsc.onclick=function(){
+			// alert("hahah")
+			// alert("hahah")
+			xixing.style.display="block";
+			spjsc.style.backgroundColor="#FFFFFF";
+			xqtp.style.display="none";
+			gecs.style.backgroundColor="#E6E6E6";
+			// xqtp.style.zIndex="100";
+		}
+		
+		function fhhs(){
+			window.history.back();
+		}
+	</script>
+</html>

@@ -1,0 +1,182 @@
+body{
+	background-color: #f2f2f2;
+}
+.fill_order_initial_top{
+	text-align: center;
+	line-height: 2.75rem;
+}
+.fill_order_initial_top span{
+	margin-left: .8rem;
+	font-size: 1.5rem;
+	float: left;
+}
+.fill_order_initial_top>h2{
+	display: inline;
+	color: #494d55;
+	font-size: 1.13rem;
+	font-weight: 400;
+	margin-left: -2rem;
+}
+.fill_order_initial_middle_address{
+	line-height: 5.219rem;
+	padding-left: .8rem;
+	background-color: #FFFFFF;
+}
+.fill_order_initial_middle_address span{
+	color: #999999;
+}
+.fill_order_initial_middle_address_right{
+	float: right;
+}
+.fill_order_initial_middle_address_right>a{
+	font-size: 1.3rem;
+	color: #000000;
+}
+.fill_order_initial_middle_details{
+	height: 4.063rem;
+	display: flex;
+	align-items: center;
+	margin-top: .6rem;
+	background-color: #FFFFFF;
+}
+.fill_order_initial_middle_details>img{
+	width: 6.4rem;
+	height: 3.5rem;
+	margin-left: .8rem;
+}
+.fill_order_initial_middle_details_number{
+	float: right;
+	margin-left: 12.3rem;
+}
+.fill_order_initial_middle_details_right>a{
+	font-size: 1.3rem;
+	color: #333333;
+}
+.fill_order_initial_middle_information_top{
+	line-height: 2.75rem;
+	margin-top: .594rem;
+	background-color: #FFFFFF;
+	display: flex;
+	border-bottom: 1px solid #999999;
+	align-items: center;
+}
+.fill_order_initial_middle_information_top>span:nth-child(1){
+	color: #999999;
+	padding-left: .8rem;
+}
+.fill_order_initial_middle_information_top>span:nth-child(2){
+	margin-left: 13.3rem;
+}
+.fill_order_initial_middle_information_right{
+	margin-top: .1rem;
+}
+.fill_order_initial_middle_information_right>a{
+	font-size: 1.3rem;
+	color: #333333;
+}
+.fill_order_initial_middle_information_middle{
+	line-height: 4.938rem;
+	background-color: #FFFFFF;
+	display: flex;
+	border-bottom: 1px solid #999999;
+	align-items: center;
+}
+.fill_order_initial_middle_information_middle>span{
+	color: #999999;
+	padding-left: .8rem;
+}
+.fill_order_initial_middle_information_middle_express{
+	margin-left: 13.3rem;
+	text-align: right;
+}
+.fill_order_initial_middle_information_middle_express>p:nth-child(2){
+	margin-top: -3rem;
+}
+.fill_order_initial_middle_information_bottom{
+	line-height: 5.063rem;
+	background-color: #FFFFFF;
+	display: flex;
+	border-bottom: 1px solid #999999;
+	align-items: center;
+}
+.fill_order_initial_middle_information_bottom>span{
+	color: #999999;
+	padding-left: .8rem;
+}
+.fill_order_initial_middle_information_bottom_invoice{
+	margin-left: 13.3rem;
+	text-align: right;
+}
+.fill_order_initial_middle_information_bottom_invoice>p:nth-child(2){
+	margin-top: -3.8rem;
+}
+.fill_order_initial_middle_information_bottom_invoice>p:nth-child(3){
+	margin-top: -3.8rem;
+}
+.fill_order_initial_middle_remasks{
+	margin-top: .594rem;
+	height: 5.565rem;
+	background-color: #FFFFFF;
+	padding-bottom: .938rem;
+}
+.fill_order_initial_middle_remasks>p{
+	color: #999999;
+	margin-left: .656rem;
+	padding-top: .938rem;
+}
+.fill_order_initial_middle_remasks>input{
+	width: 21rem;
+	height: 2.25rem;
+	color: #999999;
+	margin-top: .719rem;
+	margin-left: .625rem;
+	padding-left: .594rem;
+	border: 1px solid #999999;
+	font-size: .875rem;
+}
+.fill_order_initial_middle_freight{
+	height: 4.094rem;
+	background-color: #FFFFFF;
+	margin-top: .656rem;
+	
+}
+.fill_order_initial_middle_freight_left{
+	float: left;
+	height: 3rem;
+	margin-left: .656rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: .5rem;
+	color: #999999;
+}
+.fill_order_initial_middle_freight_right{
+	float: right;
+	height: 3rem;
+	margin-right: 1.438rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: .5rem;
+	text-align: right;
+}
+.fill_order_initial_bottom{
+	line-height: 2.938rem;
+	text-align: right;
+}
+.fill_order_initial_bottom>span{
+	font-size: 1.2rem;
+}
+.fill_order_initial_bottom>span:nth-child(2){
+	margin-right: .625rem;
+	color: #b91b34;
+}
+.fill_order_initial_bottom>input{
+	height: 2.938rem;
+	width: 6.25rem;
+	background-color: #b91b34;
+	font-size: 1rem;
+	color: #FFFFFF;
+	border: none;
+	float: right;
+}

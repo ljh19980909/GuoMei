@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/公共.css"/>
+		<link rel="stylesheet" type="text/css" href="css/修改密码1.css"/>
+		<link rel="stylesheet" type="text/css" href="css/监视.css"/>
+	</head>
+	<body>
+		<header class=" iconfont">
+			<a onclick="javascrtpt:window.history.back()">&#xe603;</a> 
+			<p>修改登录密码</p>
+			<a href="国美首页.html">关闭</a>
+		</header>
+		<nav class="pass_update iconfont">
+			<div class="pass_update_left" style="color: #32CD32;">
+				<p style="font-size: 1.2rem;">&#xe60a;</p>
+				验证手机
+			</div>
+			<hr >
+			<div class="pass_update_right">
+				<p style="font-size: 1.2rem;">&#xe62c;</p>
+				修改登录密码
+			</div>
+		</nav>
+		<section class="pass_update_down">
+					 <p>已验证手机号：<strong>183****1350</strong></p>
+					<div class="code">
+						<div class="code_up">
+							<p>验证码：</p>
+							<input type="text" placeholder="点击获取验证码" />
+							<button type="button">获取验证码</button>
+						</div>
+						<div class="code_down">
+							<button type="button" onclick="javascrtpt:window.location.href='修改密码2.html'">下一步</button>
+						</div>
+					</div>
+		</section>
+	<footer>
+			<div class="homepage" id="foothmpg" onclick="hmpg()">
+				<span class="iconfont">&#xe613;</span>
+				<p>首页</p>
+			</div>
+			<div class="sort" id="footict" onclick="footict">
+				<span class="iconfont">&#xe6f9;</span>
+				<p>分类</p>
+			</div>
+			<div class="mycart" id="footmt" onclick="footmt">
+				<span class="iconfont">&#xe605;</span>
+				<p>购物车</p>
+			</div>
+			<div class="my" id="footift" onclick="footift">
+				<span class="iconfont">&#xe604;</span>
+				<p>我的</p>
+			</div>
+		</footer>
+	</body>
+	
+	<script type="text/javascript">
+		var hmpg = document.getElementById("foothmpg");
+		hmpg.onclick = function hmpg() {
+			location.href = "" //首页链接
+		}
+		var footict = document.getElementById("footict");
+		footict.onclick = function footict() {
+			location.href = "" //分类链接
+		}
+		var footmt = document.getElementById("footmt");
+		footmt.onclick = function footmt() {
+			location.href = "" //购物车链接
+		}
+		var footift = document.getElementById("footift");
+		footift.onclick = function footift() {
+			location.href = "个人中心.html" //我的链接
+		}
+	</script>
+</html>

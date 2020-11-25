@@ -1,0 +1,230 @@
+.home_wrap{
+	/* width: 23.438rem; */
+	background-color: #eeeeee;
+}
+/* 头部 */
+header{
+	width: 100%;
+	height: 3.969rem;
+	background-image: url(../img/未标题-1.png);
+	display: flex;
+}
+.home_header_meau{
+	width: 21.844rem;
+	margin-top: 1.219rem;
+	margin-bottom: .406rem;
+	margin-left: .813rem;
+	margin-right: .871rem;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+}
+.home_header_meau>img{
+	width: .969rem;
+	height: 2.344rem;
+}
+.home_header_meau>input{
+	width: 14.562rem;
+	height: 1.813rem;
+	margin-top: .513rem;
+	margin-left: 2.313rem;
+	margin-bottom: .406rem;
+	outline: none;
+	border-radius: .3rem;
+	border: none;
+	padding-left: 2.313rem;
+	box-sizing: border-box;
+	background-color: #eeeeee;
+}
+.home_header_meau>.iconfont{
+	position: absolute;
+	top: .1rem;
+	left: 3.219rem;
+	color: #b3b3b3;
+	font-size: .2rem;
+}
+.home_header_meau>a{
+	display: inline-block;
+	width: 1.5rem;
+	height: .688rem;
+	margin-top: 1rem;
+	margin-left: 1.516rem;
+	font-size: 0.75rem;
+	color: #ffffff;
+	float: right;
+}
+/* 中间 */
+article{
+	width: 100%;
+}
+.home_article_first>img{
+	width: 100%;
+}
+.home_article_second{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1.904rem;
+}
+.home_article_second>a{
+	display: inline-block;
+	width: 3.467rem;
+	height: 3.5rem;
+}
+.home_article_second>a>img{
+	width: 100%;
+}
+.home_article_third{
+	width: 20.375rem;
+	height: 0.813rem;
+	margin:  1rem auto;
+	text-align: center;
+}
+.home_article_third>.line{
+	width: 7.688rem;
+	color: #cccccc;
+}
+.home_article_third>span{
+	font-size: 1.1rem;
+	color: #666666;
+}
+.home_article_fourth{
+	margin-top: 1rem;
+	margin-right: .781rem;
+	margin-left: .813rem;
+	overflow: hidden;
+}
+.home_article_fourth_left{
+	width: 13.656rem;
+	height: 6.25rem;
+	background-color: #FFFFFF;
+	float: left;
+	overflow: hidden;
+}
+.home_article_fourth_left_name{
+	float: left;
+}
+.home_article_fourth_left h2{
+	font-size: 1.25rem;
+	color: #000000;
+	height: 1.188rem;
+	margin-left: 1.406rem;
+	margin-top: 1.438rem;
+}
+.home_article_fourth_left h3{
+	font-size: .75rem;
+	color: #000000;
+	margin-left: 1.406rem;
+	margin-top: .531rem;
+	height: .719rem;
+}
+.home_article_fourth_left p{
+	font-size: .955rem;
+	color: #e43643;
+	margin-left: 1.406rem;
+	margin-top: .438rem;
+	margin-bottom: 1rem;
+	height: .938rem;
+}
+.home_article_fourth_left>img{
+	height: 7.3rem;
+	float: right;
+}
+.home_article_fourth_right{
+	width: 7.844rem;
+	height: 6.25rem;
+	background-color: #FFFFFF;
+	float: right;
+	text-align: center;
+}
+.home_article_fourth_right>img{
+	width: 3.5rem;
+	height: 3.813rem;
+}
+.home_article_fourth_right>h3{
+	color: #000000;
+	font-size: .625rem;
+	height: .563rem;
+	margin-top: .313rem;
+}
+.home_article_fourth_right>p{
+	color: #e43643;
+	font-size: .625rem;
+	height: .563rem;
+	margin-top: .281rem;
+}
+.home_article_fifth{
+	width: 21.875rem;
+	height: 6.25rem;
+	margin-right: .781rem;
+	margin-left: .813rem;
+	margin-top: .344rem;
+}
+.home_article_fifth img{
+	width: 100%;
+}
+.home_article_sixth{
+	width: 21.875rem;
+	height: 10.875rem;
+	margin-right: .781rem;
+	margin-left: .813rem;
+	margin-top: .344rem;
+	display: flex;
+	justify-content: space-between;
+}
+.home_article_sixth_introduce{
+	width: 10.75rem;
+	height: 100%;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+.home_article_sixth_introduce img{
+	height: 6.5rem;
+	margin-top: .844rem;
+}
+.home_article_sixth_introduce p{
+	font-size: .688rem;
+	margin-top: .656rem;
+	height: .656rem;
+	color: #000000;
+}
+.home_article_sixth_introduce h3{
+	color: #b91b34;
+	font-size: .563rem;
+	margin-top: .625rem;
+	margin-left: .656rem;
+	text-align: left;
+}
+.home_article_sixth_introduce_number{
+	font-size: .938rem;
+}
+article{
+	margin-bottom: 3.5rem;
+}
+/* 底部 */
+footer{
+	width:100%;
+	height:3.063rem;
+	border-top: 1px solid #d2d2d2;
+	background-color:#f9f9f9;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+footer>div{
+	width:17%;
+	height: 100%;
+	text-align: center;
+	font-size:0.55rem;
+}
+footer>div:hover{
+	color:#c1374d;
+}
+footer p{
+	transform:translateY(-3px);
+}
+footer span{
+	display: inline-block;
+	margin-top:0.5rem;
+}

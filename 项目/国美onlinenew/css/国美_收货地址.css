@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 1947377 */
+  src: url('//at.alicdn.com/t/font_1947377_zj23h32faa8.eot');
+  src: url('//at.alicdn.com/t/font_1947377_zj23h32faa8.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1947377_zj23h32faa8.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1947377_zj23h32faa8.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1947377_zj23h32faa8.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1947377_zj23h32faa8.svg#iconfont') format('svg');
+}
+.iconfont{
+font-family:"iconfont" !important;
+font-size:16px;font-style:normal;
+-webkit-font-smoothing: antialiased;
+-webkit-text-stroke-width: 0.2px;
+-moz-osx-font-smoothing: grayscale;
+}
+
+/* 顶部 */
+body{
+	background-color: #F2F2F2;
+}
+header{
+	width: 23.438rem;
+	height: 2.75rem;
+	/* background-color: #F0F0F0; */
+	position: relative;
+	border-bottom: 1px solid #D2D2D2;
+	text-align: center;
+}
+header>a{
+	color: #939393;
+	position: absolute;
+	top: 0.844rem;
+	left: 0.8rem;
+}
+header>a>img{
+	width: 0.688rem;
+}
+header>span{
+	line-height: 2.75rem;
+	font-size: 1.125rem;
+	color: #494d55;
+}
+/* 主体内容 */
+.content{
+	width: 22.188rem;
+	height: 7.96em;
+	margin: 0.625rem 0.625rem 0;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+.circular{
+	width: 1rem;
+	height: 1rem;
+	border: 1px solid #F2F2F2;
+	border-radius: 50%;
+	float: left;
+	margin-left: 0.625rem;
+	margin-top: 0.938rem;
+}
+.circular_inner{
+	width: 0.688rem;
+	height: 0.688rem;
+	/* background-color: #B91B34; */
+	border-radius: 50%;
+	margin: 0.156rem auto;
+}
+.contact{
+	float: left;
+	margin-left: 0.688rem;
+	margin-top: 0.938rem;
+	font-size: 0.938rem;
+}
+.address{
+	float: left;
+	width: 19.125rem;
+	margin-left: 2.409rem;
+	margin-bottom: 0.906rem;
+}
+.default{
+	width: 1.625rem;
+	font-size: 0.625rem;
+	color: #b91b34;
+	border: solid 0.031rem #b91b34;
+	border-radius: 0.063rem;
+	text-align: center;
+	display: inline;
+}
+.address>span{
+	font-size: 0.813rem;
+	color: #888888;
+}
+.edit{
+	float: left;
+	width: 22.188rem;
+	border-top: 0.031rem solid #e6e6e6;
+	line-height: 2rem;
+}
+.edit>a{
+	font-size: 0.75rem;
+	color: #cacaca;
+	margin-left: 19.063rem;
+}
+.edit>a:hover{
+	color: #b91b34;
+}
+
+article>div:nth-child(3){
+	margin-bottom: 10.4rem;
+}
+/* 底部 */
+.increase{
+	height: 2.875rem;
+	border-top: 0.031rem solid #e6e6e6;
+	position: fixed;
+	bottom: 1rem;
+}
+.increase>a{
+	display: block;
+	margin-left: 0.625rem;
+	margin-top: 0.313rem;
+	width: 22rem;
+	background-color: #B91B34;
+	text-align: center;
+	line-height: 2rem;
+	border-radius: 0.125rem;
+	color: #FFFFFF;
+}
+

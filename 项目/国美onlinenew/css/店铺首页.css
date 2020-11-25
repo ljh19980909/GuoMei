@@ -1,0 +1,159 @@
+body{
+	background-color: #f2f2f2;
+}
+.shop_homepage_top{
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	line-height: 2rem;
+	margin: .7rem 0;
+	position: relative;
+}
+.shop_homepage_top>input{
+	height: 2rem;
+}
+.shop_homepage_top>a{
+	font-size: 1rem;
+	color: #000000;
+}
+.shop_homepage_top_classification_mask{
+	background-color: rgba(0,0,0,.9);
+	position: absolute;
+	top: 2.7rem;
+	right: 0rem;
+	display: none;
+}
+.shop_homepage_top_classification:hover ~.shop_homepage_top_classification_mask{
+	display: block;
+}
+ul{
+	width: 17rem;
+	display: flex;
+	flex-direction: column;
+	color: #FFFFFF;
+}
+li{
+	border-bottom: 1px solid #494D55;
+	text-align: left;
+	font-size: 1.1rem;
+	padding-left:2rem;
+	line-height: 2.8rem;
+}
+.wine{
+	padding-left: 3.5rem;
+	color: #999999;
+}
+li>.iconfont{
+	float: right;
+	padding-right: 1rem;
+}
+input{
+	padding-left: 3rem;
+	font-size: 1rem;
+	color: #666666;
+	border: none;
+	border-radius: .3rem;
+}
+.shop_homepage_top_search{
+	position: absolute;
+	top: 0rem;
+	left: 4rem;
+}
+.shop_homepage_top_introduce{
+	background-image: url(../img/niu.png);
+	height: 6.188rem;
+	display: flex;
+	align-items: flex-end;
+}
+.shop_homepage_top_introduce>img{
+	width: 5.844rem;
+	height: 2.906rem;
+	float: left;
+}
+.shop_homepage_top_Storereviews{
+	float: left;
+	margin-left: .5rem;
+}
+.shop_homepage_top_Storereviews>h3{
+	font-size: .938rem;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+.shop_homepage_top_Storereviews>span{
+	font-size: .75rem;
+	color: yellow;
+}
+.shop_homepage_commodity{
+	margin-top: .3rem;
+	display: flex;
+	justify-content: space-around;
+	height: 35.438rem;
+}
+.shop_homepage_commodity a{
+	background-color: #FFFFFF;
+	height: 17rem;
+}
+.shop_homepage_commodity_above{
+	width: 11rem;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.shop_homepage_commodity_above img{
+	width: 100%;
+	height: 10rem;
+}
+.shop_homepage_commodity_above h4{
+	font-size: .9rem;
+	color: #B3B3B3;
+	font-weight: 600;
+	margin-top: 1rem;
+	margin-left: .4rem;
+}
+.shop_homepage_commodity_above p{
+	font-size: 1.3rem;
+	color: #b91b34;
+	font-weight: 600;
+	margin-top: 1rem;
+	margin-left: .4rem;
+}
+.shop_homepage_commodity_above_number{
+	font-size: .9rem;
+	color: #b91b34;
+}
+.shop_homepage_commodity_below{
+	width: 11rem;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.shop_homepage_commodity_below img{
+	width: 100%;
+	height: 10rem;
+}
+.shop_homepage_commodity_below h4{
+	font-size: .9rem;
+	color: #B3B3B3;
+	font-weight: 600;
+	margin-top: 1rem;
+	margin-left: .4rem;
+}
+.shop_homepage_commodity_below p{
+	font-size: 1.3rem;
+	color: #b91b34;
+	font-weight: 600;
+	margin-top: 1rem;
+	margin-left: .4rem;
+}
+.shop_homepage_commodity_below_number{
+	font-size: .9rem;
+	color: #b91b34;
+}
+.shop_homepage>p{
+	font-size: 1rem;
+	color: #B3B3B3;
+	line-height: 2.375rem;
+	text-align: center;
+}

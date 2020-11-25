@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="./css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/填写订单默认.css"/>
+		<link rel="stylesheet" type="text/css" href="css/监视.css"/>
+	</head>
+	<body>
+		<div class="fill_order_initial_top">
+			<a onclick="javascrtpt:window.history.back()"><span class="iconfont">&#xe602;</span></a>
+			<h2>填写订单</h2>
+		</div>
+		<div class="fill_order_initial_middle">
+			<div class="fill_order_initial_middle_address"  onclick="javascrtpt:window.location.href='填写订单.html'">
+				<span>请先填写收货地址</span>
+				<div class="fill_order_initial_middle_address_right">
+					<a href="#" class="iconfont">&#xe60c;</a>
+				</div>
+			</div>
+			<div class="fill_order_initial_middle_details" onclick="javascrtpt:window.location.href='商品清单.html'">
+				<img src="./img/购物车－填写订单－默认.png" alt="">
+				<div class="fill_order_initial_middle_details_number">
+					<span>共3件</span>
+				</div>
+				 <div class="fill_order_initial_middle_details_right">
+				 	<a href="#"class="iconfont">&#xe60c;</a>
+				 </div>
+			</div>
+			<div class="fill_order_initial_middle_information">
+				<div class="fill_order_initial_middle_information_top">
+					<span>支付方式</span>
+					<span>在线支付</span>
+					<div class="fill_order_initial_middle_information_right">
+						<a href="#"class="iconfont">&#xe60c;</a>
+					</div>
+				</div>
+				<div class="fill_order_initial_middle_information_middle">
+					<span>配送方式</span>
+					<div class="fill_order_initial_middle_information_middle_express"  onclick="javascrtpt:window.location.href='配送方式.html'">
+						<p>普通快递</p>
+						<p>时间不限</p>
+					</div>
+					<div class="fill_order_initial_middle_details_right">
+						<a href="配送方式.html"class="iconfont">&#xe60c;</a>
+					</div>
+				</div>
+				<div class="fill_order_initial_middle_information_bottom">
+					<span>发票信息</span>
+					<div class="fill_order_initial_middle_information_bottom_invoice"  onclick="javascrtpt:window.location.href='发票信息 需要.html'">
+						<p>普通发票</p>
+						<p>个人</p>
+						<p>明细</p>
+					</div>
+					<div class="fill_order_inilial_middle_details_right">
+						<a href="发票信息 需要.html"class="iconfont" style="font-size: 1.3rem;">&#xe60c;</a>
+					</div>
+				</div>
+			</div>
+			<div class="fill_order_initial_middle_remasks">
+				<p>备注</p>
+				<input type="text" placeholder="45字以内"/>
+			</div>
+			<div class="fill_order_initial_middle_freight">
+				<div class="fill_order_initial_middle_freight_left">
+					<p>商品总计</p>
+					<p>运费</p>
+				</div>
+				<div class="fill_order_initial_middle_freight_right">
+					<p>￥195.00</p>
+					<p>+￥5.00</p>
+				</div>
+			</div>
+		</div>
+		<div class="fill_order_initial_bottom">
+			<span>应付金额:</span>
+			<span>￥200.00</span>
+			<input type="submit" value="提交订单"   onclick="javascrtpt:window.location.href='填写订单.html'"/>
+		</div>
+	</body>
+</html>

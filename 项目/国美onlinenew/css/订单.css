@@ -1,0 +1,56 @@
+.order{
+	width: 22.5rem;
+	height: 5.94rem;
+	background-color: #FFFFFF;
+	padding-left: 0.94rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.order>p:nth-of-type(1){
+	font-size: 0.75rem;
+	margin-top: 1.91rem;
+}
+.order>p:nth-of-type(2){
+	font-size: 0.88rem;
+}
+.order>p>span{
+	font-size: 0.94rem;
+	color: #b91b34;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+.order_pay{
+	padding: 0rem 0.94rem;
+	width: 21.56rem;
+	height: 3.13rem;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0.63rem;
+}
+.order_pay_inner{
+	width: 18.818rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #333333;
+}
+.order_pay_inner>p{
+	margin: auto 0rem;
+	font-size: 0.88rem;
+	line-height: 1.6875rem;
+}
+.alpay{
+	color: deepskyblue;
+	font-size: 1.6rem;
+	margin-right: 0.94rem;
+}
+.wechat{
+	color: limegreen;
+	font-size: 1.8rem;
+	margin-right: 0.94rem;
+}

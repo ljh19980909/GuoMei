@@ -1,0 +1,1115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+li {
+	list-style-type: none;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.swiper-wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	width: 100%;
+	height: 646px;
+	color: white;
+	position: relative;
+}
+
+
+/*尾部部分*/
+/* 上下 */
+.arrow {
+	width: 8%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 15px;
+	margin: 0 auto;
+	animation: arrow 2s ease-in-out infinite;
+	z-index: 2;
+}
+
+@keyframes arrow {
+	0 {
+		transform: translateY(-30px);
+	}
+	50% {
+		transform: translateY(-15px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+/* 音乐 */
+.play {
+	width: 30px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	animation: play 2s linear infinite;
+	z-index: 2;
+}
+
+@keyframes play {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+/*第一块*/
+
+
+/*长方形里面图片部分*/
+
+.page1 {
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.page1 .logo {
+	width: 80%;
+	height: 45%;
+	background: navajowhite;
+	position: absolute;
+	top: 10%;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	margin: auto;
+}
+
+.page1 .bg {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	left: -70%;
+	top: 0;
+	opacity: 0;
+	transition: 1s all;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg {
+	opacity: 1;
+	left: 0;
+	top: 0;
+}
+
+.page1 .bg1 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 60%;
+	top: -50%;
+	opacity: 0;
+	transition: 1s all;
+	opacity: 0;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg1 {
+	left: 0;
+	top: 0;
+	opacity: 1;
+}
+
+.page1 .bg2 {
+	width: 100%;
+	height: 60%;
+	bottom: -100%;
+	transition: 1s all;
+	position: absolute;
+	opacity: 0;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg2 {
+	bottom: 0;
+	opacity: 1;
+}
+
+.page1 .bg3 {
+	width: 70%;
+	height: 43.5%;
+	bottom: -50%;
+	right: -50%;
+	opacity: 0;
+	position: absolute;
+	transition: 1s all;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg3 {
+	bottom: 0;
+	right: 0;
+	opacity: 1;
+	transition-delay: 0.5s;
+}
+
+.page1 .bg4 {
+	width: 20%;
+	height: 43.5%;
+	position: absolute;
+	left: 60%;
+	top: -27%;
+	transition: 1.5s all;
+	opacity: 0;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg4 {
+	left: 27%;
+	top: 27%;
+	opacity: 1;
+	transition-delay: 0.5s;
+}
+
+.page1 .bg5 {
+	width: 20%;
+	height: 25%;
+	position: absolute;
+	opacity: 0;
+	left: 50%;
+	top: 0;
+	transition: 1.5s all;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg5 {
+	left: 0;
+	top: 40%;
+	opacity: 1;
+	transition-delay: 0.5s;
+}
+
+#inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 20%;
+	height: 80%;
+}
+
+.page1 .bg6 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 10%;
+	top: -80%;
+	opacity: 0;
+	transition: 1.5s all;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg6 {
+	left: 0;
+	top: 0;
+	opacity: 1;
+}
+
+.page1 .bg7 {
+	width: 50%;
+	height: 61%;
+	position: absolute;
+	left: 20%;
+	top: -80%;
+	opacity: 0;
+	transition: 1.5s all;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg7 {
+	margin-left: 50%;
+	left: 0;
+	top: 0;
+	opacity: 1;
+}
+
+.page1 .bg8 {
+	width: 11%;
+	height: 19%;
+	position: absolute;
+	top: 43%;
+	left: 4.5%;
+	opacity: 0;
+	transform: scale(3, 3) translate(-30%, 0);
+	transition: 1s all;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg8 {
+	top: 43%;
+	left: 4.5%;
+	opacity: 1;
+	transform: scale(1, 1) translate(0, 0);
+	transition-delay: 2s;
+}
+
+.page1 .bg9 {
+	width: 35%;
+	height: 60%;
+	position: absolute;
+	left: 23%;
+	bottom: 3%;
+	opacity: 0;
+	transform: scale(3, 3) translate(-30%, 0);
+	transition: 1s all;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg9 {
+	left: 23%;
+	bottom: 3%;
+	opacity: 1;
+	transform: scale(1, 1) translate(0, 0);
+	transition-delay: 2s;
+}
+
+.page1 .bg10 {
+	width: 8%;
+	height: 10%;
+	position: absolute;
+	left: 26%;
+	bottom: 50%;
+	opacity: 0;
+	transform: scale(3, 3) translate(-30%, 0);
+	transition: 1s all;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg10 {
+	left: 26%;
+	bottom: 50%;
+	opacity: 1;
+	transform: scale(1, 1) translate(0, 0);
+	transition-delay: 1.5s;
+}
+
+.page1 .bg11 {
+	width: 12%;
+	height: 25%;
+	position: absolute;
+	left: 35%;
+	bottom: 35%;
+	opacity: 0;
+	transform: scale(3, 3) translate(-30%, 0);
+	transition: 1s all;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg11 {
+	left: 35%;
+	bottom: 35%;
+	opacity: 1;
+	transform: scale(1, 1) translate(0, 0);
+	transition-delay: 2s;
+}
+
+.page1 .bg12 {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: 5%;
+	opacity: 0;
+	transform: scale(3, 3) translate(-30%, 0);
+	transition: 1s all;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg12 {
+	left: 50%;
+	bottom: 5%;
+	opacity: 1;
+	transform: scale(1, 1) translate(0, 0);
+	transition-delay: 2s;
+}
+
+.page1 .bg13 {
+	width: 60%;
+	height: 15%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	transform: scale(3, 3) translate(-30%, 0);
+	transition: 1s all;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg13 {
+	right: 0;
+	bottom: 0;
+	opacity: 1;
+	transform: scale(1, 1) translate(0, 0);
+	transition-delay: 2s;
+}
+
+
+/*两个小星球*/
+
+.starBall .bg17 {
+	position: absolute;
+	left: -50%;
+	top: 50%;
+	opacity: 0;
+	transition: 1s all;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg17 {
+	left: 0;
+	top: 50%;
+	opacity: 1;
+	transition-delay: 2s;
+}
+
+.starBall .bg18 {
+	position: absolute;
+	right: -50%;
+	bottom: 0;
+	opacity: 0;
+	transition: 1s all;
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg18 {
+	right: 0;
+	bottom: 0;
+	opacity: 1;
+	transition-delay: 2s;
+}
+
+
+/*文字部分*/
+
+.text .bg19 {
+	width: 80%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 65%;
+	opacity: 0;
+	transition: 2s all;
+	transform: scale(0.1, 0.1);
+}
+
+
+/*追加的动画*/
+
+.animateOne .bg19 {
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 65%;
+	opacity: 1;
+	transition-delay: 3s;
+	transform: scale(1, 1);
+}
+
+
+/*流星*/
+
+.bg14,
+.bg15,
+.bg16 {
+	position: absolute;
+}
+
+.bg14 {
+	animation: movestar1 3s linear infinite;
+}
+
+.bg15 {
+	animation: movestar2 2s linear infinite;
+}
+
+.bg16 {
+	width: 30%;
+	animation: movestar3 2s linear infinite;
+}
+
+
+/*流星的动画*/
+
+@keyframes movestar1 {
+	from {
+		left: -10%;
+		top: 6%;
+	}
+	to {
+		left: 90%;
+		top: 50%;
+	}
+}
+
+@keyframes movestar2 {
+	from {
+		right: -20%;
+		top: 40%;
+	}
+	to {
+		right: 90%;
+		top: 1%;
+	}
+}
+
+@keyframes movestar3 {
+	from {
+		right: -40%;
+		top: 60%;
+		opacity: 0;
+	}
+	to {
+		right: 60%;
+		top: 70%;
+		opacity: 1;
+	}
+}
+
+
+/*第二块*/
+
+.page2 {
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.bg20 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.bg21 {
+	position: absolute;
+	left: -40%;
+	right: 0;
+	bottom: 20%;
+	width: 75%;
+	height: 4%;
+	margin: 0 auto;
+	opacity: 0;
+	transition: 2s all;
+}
+
+
+/*追加的动画*/
+
+.animateTwo .bg21 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20%;
+	margin: 0 auto;
+	opacity: 1;
+}
+
+.bg22 {
+	position: absolute;
+	left: 0;
+	right: -50%;
+	bottom: 10%;
+	width: 90%;
+	height: 7%;
+	margin: 0 auto;
+	opacity: 0;
+	transition: 2s all;
+}
+
+
+/*追加的动画*/
+
+.animateTwo .bg22 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 10%;
+	margin: 0 auto;
+	opacity: 1;
+}
+
+
+/*第三块*/
+
+.page3 {
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.bg23 {
+	position: absolute;
+	width: 15%;
+	height: 10%;
+	left: 20%;
+	top: 5%;
+	animation: move1 5s linear infinite;
+}
+
+@keyframes move1 {
+	0 {
+		left: 20%;
+		top: 5%;
+	}
+	50% {
+		left: 18%;
+		top: 3%;
+		transform: rotate(-20deg);
+	}
+	100% {
+		left: 20%;
+		top: 5%;
+		transform: rotate(0);
+	}
+}
+
+.bg24 {
+	position: absolute;
+	width: 40%;
+	height: 23%;
+	right: 10%;
+	top: 5%;
+	animation: move2 5s linear infinite;
+}
+
+@keyframes move2 {
+	0 {
+		right: 10%;
+		top: 5%;
+	}
+	50% {
+		right: 11%;
+		top: 4.5%;
+		transform: rotate(-6deg);
+	}
+	100% {
+		right: 10%;
+		top: 5%;
+		transform: rotate(0);
+	}
+}
+
+.bg25 {
+	position: absolute;
+	width: 40%;
+	height: 23%;
+	left: 5%;
+	top: 20%;
+	animation: move3 5s linear infinite;
+}
+
+@keyframes move3 {
+	0 {
+		left: 5%;
+		top: 20%;
+	}
+	50% {
+		left: 6%;
+		top: 21%;
+		transform: rotate(6deg);
+	}
+	100% {
+		left: 5%;
+		top: 20%;
+		transform: rotate(0);
+	}
+}
+
+.bg26 {
+	position: absolute;
+	width: 52%;
+	height: 23%;
+	right: 10%;
+	bottom: 40%;
+	animation: move4 5s linear infinite;
+}
+
+@keyframes move4 {
+	0 {
+		right: 10%;
+		bottom: 40%;
+	}
+	50% {
+		right: 9%;
+		bottom: 39%;
+		transform: rotate(6deg);
+	}
+	100% {
+		right: 10%;
+		bottom: 40%;
+		transform: rotate(0);
+	}
+}
+
+.bg27 {
+	position: absolute;
+	width: 35%;
+	height: 20%;
+	left: 5%;
+	bottom: 30%;
+	animation: move5 5s linear infinite;
+}
+
+@keyframes move5 {
+	0 {
+		left: 5%;
+		bottom: 30%;
+	}
+	50% {
+		left: 6%;
+		bottom: 32%;
+		transform: rotate(6deg);
+	}
+	100% {
+		left: 5%;
+		bottom: 30%;
+		transform: rotate(0);
+	}
+}
+
+.bg28 {
+	position: absolute;
+	width: 36%;
+	height: 20%;
+	right: 10%;
+	bottom: 10%;
+	animation: move6 5s linear infinite;
+}
+
+@keyframes move6 {
+	0 {
+		right: 10%;
+		bottom: 10%;
+	}
+	50% {
+		right: 10%;
+		bottom: 9%;
+		transform: rotate(10deg);
+	}
+	100% {
+		right: 10%;
+		bottom: 10%;
+		transform: rotate(0);
+	}
+}
+
+.bg29 {
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	right: 15%;
+	top: 30%;
+	animation: move7 5s linear infinite;
+}
+
+@keyframes move7 {
+	0 {
+		right: 15%;
+		top: 30%;
+	}
+	50% {
+		right: 17%;
+		top: 29%;
+		transform: rotate(-10deg);
+	}
+	100% {
+		right: 15%;
+		top: 30%;
+		transform: rotate(0);
+	}
+}
+
+.bg30 {
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	left: 15%;
+	bottom: 15%;
+	animation: move8 5s linear infinite;
+}
+
+@keyframes move8 {
+	0 {
+		left: 15%;
+		bottom: 15%;
+	}
+	50% {
+		left: 17%;
+		bottom: 16%;
+		transform: rotate(10deg);
+	}
+	100% {
+		left: 15%;
+		bottom: 15%;
+		transform: rotate(0);
+	}
+}
+
+
+/*第四块*/
+
+.page4 {
+	width: 100%;
+	height: 100%;
+	background: black;
+	background-size: 100% 100%;
+}
+
+.bg31 {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: 3s all;
+	transform: scale(0.1, 0.1);
+}
+
+
+/*追加的动画*/
+
+.animateFour .bg31 {
+	opacity: 1;
+	transform: scale(1, 1);
+}
+
+.bg32 {
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	left: 15%;
+	top: 5%;
+	opacity: 0;
+	transform: scale(0.1, 0.1);
+	transition: 2s all;
+	transition-delay: 3.5s;
+}
+
+.animateFour .bg32 {
+	transform: scale(1, 1);
+	opacity: 1;
+}
+
+.bg33 {
+	position: absolute;
+	font-size: 20px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	opacity: 0;
+	top: 28%;
+	left: -20%;
+	transition: 2s all;
+}
+
+
+/*追加的动画*/
+
+.animateFour .bg33 {
+	font-size: 25px;
+	opacity: 1;
+	left: 0;
+	top: 28%;
+	
+	transition-delay: 3.5s;
+}
+
+.bg34 {
+	position: absolute;
+	font-size: 20px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	opacity: 0;
+	top: 35%;
+	left: 0;
+	transition: 2s all;
+}
+
+
+/*追加的动画*/
+
+.animateFour .bg34 {
+	font-size: 25px;
+	opacity: 1;
+	left: 0;
+	top: 35%;
+	
+	transition-delay: 5s;
+}
+
+.bg35 {
+	position: absolute;
+	width: 0;
+	left: 45%;
+	top: 10%;
+	opacity: 0;
+	transform: scale(0.1, 0.1);
+	transition: 2s all;
+}
+
+
+/*追加的动画*/
+
+.animateFour .bg35 {
+	width: 18%;
+	opacity: 1;
+	transform: scale(1, 1);
+	transition-delay: 1.5s;
+}
+
+.bg36 {
+	position: absolute;
+	width: 0;
+	left: 70%;
+	top: 20%;
+	opacity: 0;
+	transform: scale(0.1, 0.1);
+	transition: 2s all;
+}
+
+
+/*追加的动画*/
+
+.animateFour .bg36 {
+	width: 20%;
+	opacity: 1;
+	transform: scale(1, 1);
+	transition-delay: 2s;
+}
+
+.bg37 {
+	position: absolute;
+	width: 0;
+	left: 15%;
+	top: 22%;
+	opacity: 0;
+	transform: scale(0.1, 0.1);
+	transition: 2s all;
+}
+
+
+/*追加的动画*/
+
+.animateFour .bg37 {
+	width: 22%;
+	opacity: 1;
+	transform: scale(1, 1);
+	transition-delay: 2.5s;
+}
+
+.bg38 {
+	position: absolute;
+	width: 0;
+	left: 15%;
+	top: 42%;
+	opacity: 0;
+	transform: scale(0.1, 0.1);
+	transition: 2s all;
+}
+
+
+/*追加的动画*/
+
+.animateFour .bg38 {
+	width: 20%;
+	opacity: 1;
+	transform: scale(1, 1);
+	transition-delay: 2.5s;
+}
+
+.bg39 {
+	position: absolute;
+	width: 0;
+	left: 15%;
+	top: 60%;
+	opacity: 0;
+	transform: scale(0.1, 0.1);
+	transition: 2s all;
+}
+
+
+/*追加的动画*/
+
+.animateFour .bg39 {
+	width: 20%;
+	opacity: 1;
+	transform: scale(1, 1);
+	transition-delay: 1.5s;
+}
+
+.bg40 {
+	position: absolute;
+	width: 0;
+	left: 45%;
+	top: 70%;
+	opacity: 0;
+	transform: scale(0.1, 0.1);
+	transition: 2s all;
+}
+
+
+/*追加的动画*/
+
+.animateFour .bg40 {
+	width: 18%;
+	opacity: 1;
+	transform: scale(1, 1);
+	transition-delay: 2.5s;
+}
+
+.bg41 {
+	position: absolute;
+	width: 0;
+	left: 65%;
+	top: 60%;
+	opacity: 0;
+	transform: scale(0.1, 0.1);
+	transition: 2s all;
+}
+
+
+/*追加的动画*/
+
+.animateFour .bg41 {
+	width: 20%;
+	opacity: 1;
+	transform: scale(1, 1);
+	transition-delay: 1.5s;
+}
+
+.bg42 {
+	position: absolute;
+	width: 0;
+	left: 68%;
+	top: 40%;
+	opacity: 0;
+	transform: scale(0.1, 0.1);
+	transition: 2s all;
+}
+
+
+/*追加的动画*/
+
+.animateFour .bg42 {
+	width: 18%;
+	opacity: 1;
+	transform: scale(1, 1);
+	transition-delay: 2s;
+}
+
+
+/*第四块轮播部分*/
+
+#div4 .swiper-container {
+	position: absolute;
+	height: 57%;
+	width: 100%;
+	z-index: -1;
+	/*display: none;*/
+	top: 39%;
+}
+#div4 .swiper-container .swiper-slide{
+	
+	height: 100%;}
+
+#div4 .swiper-container .swiper-slide>img {
+	width: 100%;
+	height: 100%;
+}
+
+#close {
+	position: absolute;
+	width: 15%;
+	left: 5%;
+	top: 10%;
+	display: none;
+}
+/*
+.swiper-button-prev {
+	/*position: absolute;
+	top: 10%;
+	left: 10%;*/
+	/*width: 7%;
+	height: 7%;*/
+	
+}
+
+/*.swiper-button-next {
+	/*position: absolute;
+	top: 10%;
+	right: 10%;*/
+	/*width: 7%;
+	height: 7%;*/
+/*/
+/*.swiper-button-prev img{
+	width: 100%;
+	height:100%;
+}
+.swiper-button-next img{
+	width: 100%;
+	height:100%;
+}*/

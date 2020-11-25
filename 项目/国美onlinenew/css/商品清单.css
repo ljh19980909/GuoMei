@@ -1,0 +1,66 @@
+.Commodity_list_top{
+	height: 2.781rem;
+	font-size: 1.063rem;
+	background-color: #FFFFFF;
+	line-height: 2.781rem;
+}
+.Commodity_list_top>span:nth-child(1){
+	margin-left: .938rem;
+	float: left;
+}
+.Commodity_list_top>span:nth-child(2){
+	margin-right: .906rem;
+	float: right;
+}
+.Commodity_list_middle_type{
+	line-height: 2.375rem;
+	background-color: #f4f4f4;
+}
+.Commodity_list_middle_type>h3{
+	font-size: 1rem;
+	margin-left: .938rem;
+	font-weight: 600;
+}
+.Commodity_list_middle_wine{
+	height: 6.781rem;
+	color: #333333;
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.Commodity_list_middle_wine>img{
+	width: 4.375rem;
+	height: 4.375rem;
+	margin-left: .813rem;
+}
+.Commodity_list_middle_wine_right{
+	height: 4.375rem;
+	margin-left: .5rem;
+}
+.Commodity_list_middle_wine_right>p{
+	font-size: .8rem;
+	margin-bottom: 1.2rem;
+	margin-right: .719rem;
+}
+.Commodity_list_middle_wine_right>span{
+	font-size: .8rem;
+	color: #b91b34;
+}
+.Commodity_list_middle_wine_right>span:last-child{
+	float: right;
+	margin-right: .719rem;
+	margin-top: .3rem;
+	color: #333333;
+}
+.Commodity_list_middle_wine_right>div{
+	width: 4.075rem;
+	background-color: rgba(0,0,0,.6);
+	color: #FFFFFF;
+	text-align: center;
+	font-size: .8rem;
+	padding: .2rem;
+	position: absolute;
+	left: .813rem;
+	top: 4rem;
+}

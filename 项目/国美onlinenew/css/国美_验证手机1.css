@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 1947377 */
+  src: url('//at.alicdn.com/t/font_1947377_zj23h32faa8.eot');
+  src: url('//at.alicdn.com/t/font_1947377_zj23h32faa8.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1947377_zj23h32faa8.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1947377_zj23h32faa8.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1947377_zj23h32faa8.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1947377_zj23h32faa8.svg#iconfont') format('svg');
+}
+.iconfont{
+font-family:"iconfont" !important;
+font-size:16px;font-style:normal;
+-webkit-font-smoothing: antialiased;
+-webkit-text-stroke-width: 0.2px;
+-moz-osx-font-smoothing: grayscale;
+}
+body{
+	background-color: #F2F2F2;
+}
+/* 顶部 */
+header{
+	width: 23.438rem;
+	height: 2.75rem;
+	position: relative;
+	border-bottom: 1px solid #D2D2D2;
+	text-align: center;
+}
+header>.iconfont{
+	color: #939393;
+	position: absolute;
+	top: 0.844rem;
+	left: 0.8rem;
+}
+header>a>img{
+	width: 0.688rem;
+}
+header>span{
+	line-height: 2.75rem;
+	font-size: 1.125rem;
+	color: #494d55;
+}
+.submit{
+	position: absolute;
+	left: 20.813rem;
+	line-height: 2.75rem;
+	font-size: 0.938rem;
+	color: #5c5f66;
+}
+/* 主体 */
+.verification{
+	margin: 2.813rem 0.625rem 4.063rem 0.563rem;
+}
+.verification>p{
+	font-size: 0.813rem;
+	color: #666666;
+	margin-bottom: 2.813rem;
+}
+.verification>h4{
+	font-size: 0.875rem;
+	color: #666666;
+	font-weight: normal;
+}
+.verification>.phone_number{
+	width: 12.625rem;
+	height: 2.75rem;
+	margin: 0.656rem 0 1.513rem;
+	font-size: 0.938rem;
+	outline: none;
+	padding-left: 0.656rem;
+	border: solid 0.063rem #e6e6e6;
+}
+.verification>button{
+	width: 8.438rem;
+	height: 2.75rem;
+	border-radius: 0.25rem;
+	font-size: 0.938rem;
+	border: none;
+	outline: none;
+	background-color: #b91b34;
+	color: #ffffff;
+	vertical-align: middle;
+}
+.verification>.verification_number{
+	width: 21.523rem;
+	height: 2.75rem;
+	margin-top: 0.656rem;
+	font-size: 0.938rem;
+	border: none;
+	outline: none;
+	padding-left: 0.656rem;
+	border: solid 0.063rem #e6e6e6;
+}
+input::placeholder{
+	color: #CCCCCC;
+}
+footer{
+	margin-left: 0.625rem;
+	width: 22.156rem;
+	height: 2.75rem;
+	background-color: #b91b34;
+	text-align: center;
+	line-height: 2.75rem;
+	border-radius: 0.25rem;
+}
+footer>a{
+	color: #FFFFFF;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>个人中心</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/个人中心.css" />
+	<link rel="stylesheet" type="text/css" href="css/公共.css" />
+	<body>
+		<header class=" iconfont mine_header">
+			<a onclick="javascrtpt:window.history.back()">&#xe603;</a>
+			<p>我的酒窖</p>
+			<a href="国美首页.html">退出</a>
+			<div class="mask">
+				<span>手机号：</span><input type="text" name="" value="" class="tel"/>
+				<br>
+				<span>密码：</span><input type="password" name="password"class="password"/>
+				<br>
+				<input type="button" name=""value="登录" style="width: 3rem;height: 2rem;margin-left: 8rem;" class="btn"/>
+			</div>
+			<div class="telp"></div>
+		</header>
+		<nav class="iconfont mine_nav">
+			<img src="./img/QQ图片20200831202459.jpg">
+			<div class="mine_nav_center">
+				<p>全部订单</p>
+				<a href="购物车.html">
+					<p>查看全部订单&nbsp;&nbsp;&#xe7a7;</p>
+				</a>
+			</div>
+			<div class="mine_nav_down">
+				<div class="mine_nav_down_inner" onclick="javascrtpt:window.location.href='订单.html'">
+					<a href="订单.html">&#xe60b;<br>
+						<p>待付款</p>
+					</a>
+				</div>
+				<div class="mine_nav_down_inner">
+					<a href="">&#xe600;<br>
+						<p>待收货</p>
+					</a>
+				</div>
+				<div class="mine_nav_down_inner">
+					<a href="">&#xe633;<br>
+						<p>已完成</p>
+					</a>
+				</div>
+				<div class="mine_nav_down_inner">
+					<a href="">&#xe629;<br>
+						<p>退款/售后</p>
+					</a>
+				</div>
+			</div>
+		</nav>
+		<div class="iconfont mine_body">
+			<ul>
+				<a href="国美_收货地址.html">
+					<li>收货地址管理 <span>&#xe7a7;</span></li>
+				</a>
+				<a href="">
+					<li class="li2">我的收藏<span>&#xe7a7;</span></li>
+				</a>
+				<a href="">
+					<li>联系客服<span>&#xe7a7;</span></li>
+				</a>
+			</ul>
+		</div>
+		<footer>
+			<div class="homepage" id="foothmpg" onclick="hmpg()">
+				<span class="iconfont">&#xe613;</span>
+				<p>首页</p>
+			</div>
+			<div class="sort" id="footict" onclick="footict">
+				<span class="iconfont">&#xe6f9;</span>
+				<p>分类</p>
+			</div>
+			<div class="mycart" id="footmt" onclick="footmt">
+				<span class="iconfont">&#xe605;</span>
+				<p>购物车</p>
+			</div>
+			<div class="my" id="footift" onclick="footift">
+				<span class="iconfont">&#xe604;</span>
+				<p>我的</p>
+			</div>
+		</footer>
+	</body>
+	<script src="./js/屏幕适配.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/个人中心.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var hmpg = document.getElementById("foothmpg");
+		hmpg.onclick = function hmpg() {
+			location.href = "国美首页.html" //首页链接
+		}
+		var footict = document.getElementById("footict");
+		footict.onclick = function footict() {
+			location.href = "国美_分类.html" //分类链接
+		}
+		var footmt = document.getElementById("footmt");
+		footmt.onclick = function footmt() {
+			location.href = "购物车.html" //购物车链接
+		}
+		var footift = document.getElementById("footift");
+		footift.onclick = function footift() {
+			location.href = "个人中心.html" //我的链接
+		}
+	</script>
+</html>

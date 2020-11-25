@@ -1,0 +1,53 @@
+.pass_update{
+	width: 17.24rem;
+	height: 6.28rem;
+	background-color: #FFFFFF;
+	padding: 0rem 3.10rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.pass_update_left{
+	text-align: center;
+	font-size: 0.75rem;
+}
+hr{
+	width: 9.62rem;
+}
+.pass_update_right{
+	text-align: center;
+	font-size: 0.75rem;
+}
+section{
+	display: flex;
+	flex-direction: column;
+}
+section>input{
+	width: 20.31rem;
+	height: 2.75rem;
+	margin: 0rem auto;
+	margin-top: 0.94rem;
+	outline: none;
+	padding-left: 0.94rem;
+	padding-right: 0.94rem;
+	border-color: #B3B3B3;
+}
+section>p{
+	font-size: 0.75rem;
+	margin-top: 0.5rem;
+	margin-left: 0.94rem;
+	margin-bottom: 1.56rem;
+}
+section>button{
+	width: 22.16rem;
+	height: 2.75rem;
+	margin: 0rem auto;
+	margin-top: 4.03rem;
+	list-style: none;
+	color: #FFFFFF;
+	font-size: 1rem;
+	line-height: 2.75rem;
+	background-color: #b91b34;
+	border-radius: 0.25rem;
+	border-color: #b91b34;
+}

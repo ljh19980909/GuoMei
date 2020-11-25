@@ -1,0 +1,146 @@
+/* 顶部 */
+header{
+	width: 23.438rem;
+	height: 3.969rem;
+	background-color: #F0F0F0;
+	position: relative;
+	border-bottom: 1px solid #D2D2D2;
+}
+header>a{
+	color: #939393;
+	position: absolute;
+	top: 1.469rem;
+	left: 0.8rem;
+}
+header>a>img{
+	width: 0.688rem;
+}
+.wrap>header>input{
+	width: 14.531rem;
+	height: 1.813rem;
+	margin-left: 4.313rem;
+	margin-top: 1.281rem;
+	border: none;
+	outline-style: none;
+	font-size: 0.938rem;
+	padding-left: 2.344rem;
+	border-radius: 0.3rem;
+}
+.wrap>header>span{
+	position: absolute;
+	left: 5.406rem;
+	top: 1.681rem;
+	color: #b3b3b3;
+	font-size: 0.9rem;
+}
+/* 中部左边分类 */
+.sorts{
+	display: flex;
+}
+.sort_left{
+	width: 5.531rem;
+	background-color: #F0F0F0;
+	padding-bottom: 10.375rem;
+	float: left;
+	position: relative;
+}
+.sort_left>li{
+	width: 4.281rem;
+	height: 3.063rem;
+	padding-left: 0.781rem;
+	padding-right: 0.469rem;
+	line-height: 3.063rem;
+	font-size: 0.938rem;
+	
+}
+.sort_left>li>a{
+	display: inline-block;
+	width: 4.281rem;
+	height: 3.063rem;
+	border-bottom: 1px solid #ddd;
+	color: #353535;
+}
+/* 遮罩层 */
+.sort_left_mask{
+	width: 17.344rem;
+	height: 34.887rem;
+	position: absolute;
+	top: 0;
+	left: 5.494rem;
+	font-size: 0.813rem;
+	display: none;
+	padding-left: 0.6rem;
+}
+.sort_right_content>h3{
+	line-height: 3.063rem;
+}
+.sort_right_content>ul>li{
+	height: .781rem;
+	line-height: 0.781rem;
+}
+.sort_left>li>a:hover{
+	color: #B91B34;
+}
+.sort_left>li:hover{
+	border-left: 0.188rem solid #b91b34;
+}
+/* 中部右边详细分类 */
+.sort_right{
+	width: 17.344rem;
+	height: 34.887rem;
+	font-size: 0.813rem;
+	float: right;
+	padding-left: 0.6rem;
+}
+.sort_right_content{
+	float: left;
+	border-bottom: 1px solid #DDDDDD;
+}
+/* .sort_right>div:nth-child(3){
+	border: none;
+} */
+.sort_right_content>h3{
+	font-size: 0.813rem;
+	color: #272727;
+}
+.sort_right_content>ul{
+	margin-left: 1.531rem;
+}
+.sort_right_content>ul>li{
+	width: 5rem;
+	float: left;
+	color: #333333;
+	margin-bottom: 1.394rem;
+}
+.sort_right_content>ul>li>a{
+	color: #333333;
+}
+/* 底部 */
+footer{
+	width: 23.438rem;
+	height: 3.063rem;
+	background-color: #f9f9f9;
+	border-top: 1px solid #d2d2d2;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+footer>div{
+	width:17%;
+	height: 100%;
+	text-align: center;
+	font-size:0.55rem;
+}
+footer>div:hover{
+	color:#c1374d;
+}
+footer p{
+	line-height:1.5rem;
+	transform:translateY(-3px);
+}
+footer span{
+	display: inline-block;
+	margin-top:0.5rem;
+}

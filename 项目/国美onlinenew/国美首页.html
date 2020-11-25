@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="./css/国美首页.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/监视.css"/>
+	</head>
+	<body>
+		<div class="home_wrap">
+			<header>
+				<div class="home_header_meau">
+					<img src="./img/未标题-2.png" alt="">
+					<input type="text" placeholder="拉菲"/>
+					<a href="国美_验证手机1.html">登录</a>
+					<a href="店铺搜索.html" class="iconfont">&#xe63a;</a>
+				</div>
+			</header>
+			<article>
+				<div class="home_article_first">
+					<img src="./img/广告位1.png" alt="">
+				</div>
+				<div class="home_article_second">
+					<a href="#">
+						<img src="./img/未标题-3.png" alt="">
+					</a>
+					<a href="#">
+						<img src="./img/未标题-4.png" alt="">
+					</a>
+					<a href="#">
+						<img src="./img/未标题-5.png" alt="">
+					</a>
+					<a href="#">
+						<img src="./img/未标题-6.png" alt="">
+					</a>
+				</div>
+				<div class="home_article_third">
+					<span class="line">——————</span>
+					<span>活动精选</span>
+					<span class="line">——————</span>
+				</div>
+				<div class="home_article_fourth">
+					<a class="home_article_fourth_left" href="commodity.html">
+						<div class="home_article_fourth_left_name">
+							<h2>国美酒节</h2>
+							<h3>意大利名酒</h3>
+							<p>19.9元秒</p>
+						</div>
+						<img src="./img/未标题-7.png" alt="">
+					</a>
+					<a class="home_article_fourth_right" href="commodity.html">
+						<img src="./img/未标题-8.png" alt="">
+						<h3>茅台红色限量版</h3>
+						<p>799元</p>
+					</a>
+				</div>
+				<div class="home_article_fifth" >
+					<a href="#">
+						<img src="./img/广告位2.png" alt="">
+					</a>
+				</div>
+				<div class="home_article_fifth" >
+					<a href="#">
+						<img src="./img/广告位3.png" alt="">
+					</a>
+				</div>
+				<div class="home_article_fifth" >
+					<a href="#">
+						<img src="./img/广告位4.png" alt="">
+					</a>
+				</div>
+				<div class="home_article_fifth" >
+					<a href="#">
+						<img src="./img/广告位5.png" alt="">
+					</a>
+				</div>
+				<div class="home_article_fifth" >
+					<a href="#">
+						<img src="./img/广告位6.png" alt="">
+					</a>
+				</div>
+				<div class="home_article_third">
+				<div class="home_article_third">
+					<span class="line">——————</span>
+					<span>为您推荐</span>
+					<span class="line">——————</span>
+				</div>
+				</div>
+				<div class="home_article_sixth">
+					<div class="home_article_sixth_introduce">
+						<a href="commodity.html">
+							<img src="./img/未标题-9.png" alt="">
+							<p>澳洲原瓶进口红酒洛神山庄干...</p>
+							<h3>
+								<span>¥</span><span class="home_article_sixth_introduce_number">318.00</span>
+							</h3>
+						</a>
+					</div>
+					<div class="home_article_sixth_introduce">
+						<a href="commodity.html">
+							<img src="./img/未标题-10.png" alt="">
+							<p>澳大利亚原装进口红酒整箱...</p>
+							<h3>
+								<span>¥</span><span class="home_article_sixth_introduce_number">278.00</span>
+							</h3>
+						</a>
+					</div>
+				</div>
+				<div class="home_article_sixth">
+					<div class="home_article_sixth_introduce">
+						<a href="commodity.html">
+							<img src="./img/未标题-9.png" alt="">
+							<p>澳洲原瓶进口红酒洛神山庄干...</p>
+							<h3>
+								<span>¥</span><span class="home_article_sixth_introduce_number">318.00</span>
+							</h3>
+						</a>
+					</div>
+					<div class="home_article_sixth_introduce">
+						<a href="commodity.html">
+							<img src="./img/未标题-10.png" alt="">
+							<p>澳大利亚原装进口红酒整箱...</p>
+							<h3>
+								<span>¥</span><span class="home_article_sixth_introduce_number">278.00</span>
+							</h3>
+						</a>
+					</div>
+				</div>
+			</article>
+			<footer>
+				<div class="homepage" id="foothmpg" onclick="hmpg()">
+					<span class="iconfont">&#xe613;</span>
+					<p>首页</p>
+				</div>
+				<div class="sort" id="footict" onclick="footict">
+					<span class="iconfont">&#xe6f9;</span>
+					<p>分类</p>
+				</div>
+				<div class="mycart" id="footmt" onclick="footmt">
+					<span class="iconfont">&#xe605;</span>
+					<p>购物车</p>
+				</div>
+				<div class="my" id="footift" onclick="footift">
+					<span class="iconfont">&#xe604;</span>
+					<p>我的</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var hmpg = document.getElementById("foothmpg");
+		hmpg.onclick = function hmpg() {
+			location.href = "国美首页.html" //首页链接
+		}
+		var footict = document.getElementById("footict");
+		footict.onclick = function footict() {
+			location.href = "国美_分类.html" //分类链接
+		}
+		var footmt = document.getElementById("footmt");
+		footmt.onclick = function footmt() {
+			location.href = "购物车.html" //购物车链接
+		}
+		var footift = document.getElementById("footift");
+		footift.onclick = function footift() {
+			location.href = "个人中心.html" //我的链接
+		}
+	</script>
+</html>

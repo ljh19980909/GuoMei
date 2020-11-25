@@ -1,0 +1,79 @@
+.pass_update{
+	width: 17.24rem;
+	height: 6.28rem;
+	background-color: #FFFFFF;
+	padding: 0rem 3.10rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.pass_update_left{
+	font-size: 0.75rem;
+	text-align: center;
+}
+hr{
+	width: 9.62rem;
+}
+.pass_update_right{
+	text-align: center;
+	font-size: 0.75rem;
+}
+.pass_update_down{
+	width: 23.44rem;
+	margin-top: 1.5rem;
+	font-size: 0.875rem;
+}
+.pass_update_down>p{
+	margin: 1rem;
+}
+.pass_update_down>.code{
+	height: 11.06rem;
+	margin-top: 3.6rem;
+	/* background-color: #D2D2D2; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.code_up{
+	width: 22.44rem;
+	height: 5rem;
+	padding-left: 1rem;
+	/* background-color: aqua; */
+	
+}
+.code_up>input{
+	width: 12rem;
+	height: 2.75rem;
+	margin-top: 0.7rem;
+	outline: none;
+	padding: 0rem 0.5rem;
+	border-radius: 0.25rem;
+	border-color: #999999;
+}
+.code_up>button{
+	width: 8.44rem;
+	height: 3rem;
+	color: #FFFFFF;
+	line-height: 100%;
+	background-color: #b91b34;
+	border-radius: 0.25rem;
+	border-color: #b91b34;
+	outline: none;
+}
+.code_down{
+	width: 23.44rem;
+	height: 2.75rem;
+	display: flex;
+	justify-content: center;
+}
+.code_down>button{
+	font-size: 1rem;
+	width: 22.44rem;
+	height: 2.75rem;
+	color: #FFFFFF;
+	line-height: 100%;
+	background-color: #b91b34;
+	border-radius: 0.25rem;
+	border-color: #b91b34;
+	outline: none;
+}

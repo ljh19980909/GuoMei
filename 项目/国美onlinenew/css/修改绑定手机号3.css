@@ -1,0 +1,19 @@
+.code_center{
+	width: 22.44rem;
+	height: 5rem;
+	padding-left: 1rem;
+	margin-top: 1.53rem;
+}
+
+.code_center>input{
+	width: 20.7rem;
+	height: 2.75rem;
+	margin-top: 0.7rem;
+	outline: none;
+	padding: 0rem 0.5rem;
+	border-radius: 0.25rem;
+	border-color: #999999;
+}
+.code_down>button{
+	margin-top: 4rem;
+}

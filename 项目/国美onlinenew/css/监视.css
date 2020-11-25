@@ -1,0 +1,30 @@
+@media screen and (width:414px) {
+	html{
+		font-size: 17.67px;
+	}
+}
+@media screen and (width:768px) {
+	html{
+		font-size: 32.76px;
+	}
+}
+@media screen and (width:1024px) {
+	html{
+		font-size: 43.69px;
+	}
+}
+@media screen and (width:320px) {
+	html{
+		font-size: 13.65px;
+	}
+}
+@media screen and (width:411px) {
+	html{
+		font-size: 17.53px;
+	}
+}
+@media screen and (width:360px) {
+	html{
+		font-size: 15.36px;
+	}
+}

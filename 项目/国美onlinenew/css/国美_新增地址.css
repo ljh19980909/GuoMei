@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 1947377 */
+  src: url('//at.alicdn.com/t/font_1947377_zj23h32faa8.eot');
+  src: url('//at.alicdn.com/t/font_1947377_zj23h32faa8.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1947377_zj23h32faa8.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1947377_zj23h32faa8.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1947377_zj23h32faa8.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1947377_zj23h32faa8.svg#iconfont') format('svg');
+}
+.iconfont{
+font-family:"iconfont" !important;
+font-size:16px;font-style:normal;
+-webkit-font-smoothing: antialiased;
+-webkit-text-stroke-width: 0.2px;
+-moz-osx-font-smoothing: grayscale;
+}
+body{
+	background-color: #F2F2F2;
+}
+/* 顶部 */
+header{
+	width: 23.438rem;
+	height: 2.75rem;
+	position: relative;
+	border-bottom: 1px solid #D2D2D2;
+	text-align: center;
+}
+header>a{
+	color: #939393;
+	position: absolute;
+	top: 0.844rem;
+	left: 0.8rem;
+}
+header>a>img{
+	width: 0.688rem;
+}
+header>span{
+	line-height: 2.75rem;
+	font-size: 1.125rem;
+	color: #494d55;
+}
+/* 主体 */
+article{
+	background-color: #FFFFFF;
+}
+.information{
+	margin-left: 0.938rem;
+	height: 15.8rem;
+}
+.consignee{
+	border-bottom: 0.031rem solid #e6e6e6;
+}
+.consignee>span{
+	font-size: 0.875rem;
+	color: #666666;
+}
+.consignee>input{
+	width: 15rem;
+	padding: 1rem 0 1rem 1.5rem;
+	border: none;
+	outline: none;
+}
+.consignee:nth-child(3){
+	padding: 1rem 0;
+}
+.consignee:nth-child(3) a{
+	float: right;
+	font-size: 0.875rem;
+	color: #666666;
+}
+.consignee:nth-child(5){
+	padding: 1rem 0;
+}
+.circular{
+	margin-top: -0.3rem;
+	margin-right: 0.3rem;
+	float: right;
+	display: inline;
+	width: 3.063rem;
+	height: 1.813rem;
+	border: 0.031rem solid #e6e6e6;
+	background-color: #FFFFFF;
+	border-radius: 0.9065rem;
+}
+.circular_inner{
+	width: 1.813em;
+	height: 1.813rem;
+	border-radius: 50%;
+	border: 0.031rem solid #e6e6e6;
+	background-color: #FFFFFF;
+}
+.circular_inner:hover{
+	transform: translateX(1.219rem);
+}
+.circular:hover{
+	background-color: #B91B34;
+}
+
+footer>input{
+	margin-left: 1.25rem;
+	margin-top: 2.513rem;
+	width: 20.938rem;
+	height: 2.563rem;
+	background-color: #e6e6e6;
+	text-align: center;
+	line-height: 2.563rem;
+	border-radius: 0.25rem;
+}
+footer>a{
+	color: #cccccc;
+}
+
+
